@@ -1,0 +1,401 @@
+/*
+Theme Name: projektiteema
+Text Domain: esimerkki
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+}
+
+aside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+}
+
+aside a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #111111;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+}
+
+aside .search {
+    padding: 1rem;
+    border: #333 1px solid;
+    border-radius: 6px;
+}
+
+footer {
+    color: #3a2c4d;
+    padding: 1rem;
+    margin: 2rem 0;
+    text-align: center;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.contact{
+    margin-top: -60px;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.page-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+}
+
+.header-top-left,
+.header-top-right {
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.page-header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 1rem 0 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.page-header nav ul li a {
+    color: #3a2c4d;
+    text-decoration: none;
+    padding: 0.6rem;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    border-radius: 6px;
+
+}
+
+.page-header nav ul li a:hover{
+    color: #e65678;
+}
+
+.page-header nav ul li a .hover {
+    color: #000000 !important;
+}
+
+
+.current-menu-item a {
+    color:  #e65678 !important;
+
+
+}
+
+.hero {
+    background-image: url("images/main-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero-text {
+    color: #3a2c4d;
+    padding: 30px;
+}
+.hero-text h1{
+    color: #ef4155;
+    font-size: 50px;
+    font-style: italic;
+    font-family: "-apple-system sans-serif";
+    font-weight: 500;
+    text-align: center;
+    margin-left: -70%;
+}
+
+.hero-text p{
+    color: #3a2c4d;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+
+    font-weight: 500;
+    margin-left: -70%;
+    margin-bottom: 30px;
+
+}
+
+.hero-text figure{
+    text-align: center;
+    margin-right: -50%;
+    margin-top: -200px;
+    padding-bottom: 30px;
+
+}
+
+.hero img {
+    margin-bottom: -20px;
+}
+
+
+.products h2 {
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+
+.product img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.all {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.all a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #111111;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: #3a2c4d;
+
+}
+
+a:hover{
+    color: #e65678;
+
+}
+
+
+
+.full-width {
+    width: 100%;
+}
+
+.single {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #fff;
+    margin: 0.5rem;
+    border-radius: 6px;
+}
+
+.single img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.breadcrumbs {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.breadcrumbs a {
+    color: #8375ef;
+    text-decoration: none;
+}
+
+
+a.buttonhero{
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 40%;
+    margin-top: -200px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+a.buttonhero:hover{
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0;
+    }
+
+    main {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    aside {
+        width: 25%;
+        margin-top: 4.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .page-header {
+        width: 100%;
+    }
+
+    .header-top-left,
+    .header-top-right {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero img {
+        object-fit: cover;
+    }
+
+    .product {
+        flex: 0 0 calc(33.333% - 2rem);
+    }
+
+    .single {
+        padding: 2rem 4rem;
+        margin: 2rem 0;
+    }
+}
+
+
+
+/* CSS */
+.button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-85:before {
+    content: "";
+    background: linear-gradient(
+            45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e65678;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+

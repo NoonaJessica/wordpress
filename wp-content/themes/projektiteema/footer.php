@@ -1,5 +1,11 @@
 <footer>
-    <p>&copy; 2024 ILE</p>
+
+
+    <div class="footerlink" >
+        <?php wp_nav_menu( [ 'container' => 'nav', 'theme_location' => 'main-menu' ] ); ?>
+    </div>
+
+    <p>&copy; 2024 Noona</p>
 </footer>
 </div>
 
